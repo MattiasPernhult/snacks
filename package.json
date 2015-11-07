@@ -1,14 +1,14 @@
 {
   "name": "snacks-generator",
-  "version": "0.1.0",
   "description": "Get snacks",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index_test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MattiasPernhult/snacks.git"
+    "url": "https://github.com/MattiasPernhult/snacks.git"
   },
   "keywords": [
     "random",
@@ -22,5 +22,10 @@
   "homepage": "https://github.com/MattiasPernhult/snacks#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.4.0",
+    "mocha": "2.3.3",
+    "semantic-release": "^4.3.5"
   }
 }
