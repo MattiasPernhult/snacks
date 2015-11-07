@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MattiasPernhult/snacks/issues"
   },
-  "homepage": "https://github.com/MattiasPernhult/snacks#readme"
+  "homepage": "https://github.com/MattiasPernhult/snacks#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
 }

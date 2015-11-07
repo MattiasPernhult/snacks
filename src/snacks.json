@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Sourcream and Onion",
+        "kind": "Chips",
+        "brand": "OLW"
+    },
+    {
+        "name": "Lättsaltade Chips",
+        "kind": "Chips",
+        "brand": "OLW"
+    },
+    {
+        "name": "Sourcream and Red Onion",
+        "kind": "Chips",
+        "brand": "OLW"
+    },
+    {
+        "name": "Sourcream and Sweet Chili",
+        "kind": "Chips",
+        "brand": "OLW"
+    },
+    {
+        "name": "Grill Chips",
+        "kind": "Chips",
+        "brand": "OLW"
+    },
+    {
+        "name": "Western Chips",
+        "kind": "Chips",
+        "brand": "OLW"
+    }
+]
