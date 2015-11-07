@@ -1,5 +1,5 @@
 {
-  "name": "snacks",
+  "name": "snacks-generator",
   "version": "1.0.0",
   "description": "Get snacks",
   "main": "src/index.js",
