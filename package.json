@@ -1,0 +1,23 @@
+{
+  "name": "snacks",
+  "version": "1.0.0",
+  "description": "Get snacks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattiasPernhult/snacks.git"
+  },
+  "keywords": [
+    "random",
+    "snacks"
+  ],
+  "author": "Mattias Pernhult <pernhultmattias@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattiasPernhult/snacks/issues"
+  },
+  "homepage": "https://github.com/MattiasPernhult/snacks#readme"
+}
