@@ -5,7 +5,7 @@
   "scripts": {
     "commit": "git-cz",
     "test": "istanbul cover -x *_test.js _mocha -- -R spec src/index_test.js",
-    "report-coverage": "cat ./coverage/lcov.info | codecov", 
+    "report-coverage": "cat ./coverage/lcov.info | codecov.io",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
