@@ -25,5 +25,14 @@ describe('snacks', function() {
             var randomItem = snacks.random();
             expect(snacks.all).to.include(randomItem);
         });
+
+        it('should return an array of random numbers if passed a number', function() {
+            var randomItems = snacks.random(3);
+            expect(randomItems).to.have.length(3);
+            randomItems.forEach(function(item) {
+                expect(snacks.all).to.include(item);
+            });
+        });
+
     });
 });
