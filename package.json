@@ -1,10 +1,10 @@
 {
   "name": "snacks-generator",
-  "description": "Get snacks",
+  "description": "Get swedish snacks",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "istanbul cover -x *_test.js _mocha -- -R spec src/index_test.js",
+    "test": "istanbul cover -x *_test.js -x *_credentials.js _mocha -- -R spec src/index_test.js",
     "report-coverage": "cat ./coverage/coverage.json | ./node_modules/codecov.io/bin/codecov.io.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/MattiasPernhult/snacks#readme",
   "dependencies": {
+    "mysql": "2.9.0",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
@@ -40,8 +41,8 @@
     "path": "node_modules/cz-conventional-changelog"
   },
   "config": {
-      "ghooks": {
-          "pre-commit": "npm run test && npm run check-coverage"
-      }
+    "ghooks": {
+      "pre-commit": "npm run test && npm run check-coverage"
+    }
   }
 }
